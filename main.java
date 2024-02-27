@@ -5,7 +5,8 @@ public class main {
         
         
         QuestionService service = new QuestionService();
-        service.displayQuestion();
+        service.playQuiz();
+        service.printScore();
         
     }
     
